@@ -14,9 +14,9 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 
 # ===== 按你的工程路径改这里 =====
-from modules_stage1_5.feature_extractor import ResNetFeatureExtractor  # ← 特征提取 F2
-from modules_stage2.reconstructor import ReconstructionUNet    # ← 重构 R
-from tools_stage1_5.anomaly_generator import PerlinAnomalyGenerator   # ← G：伪异常生成器
+from modules.feature_extractor import ResNetFeatureExtractor  # ← 特征提取 F2
+from modules.reconstructor import ReconstructionUNet    # ← 重构 R
+from tools.anomaly_generator import PerlinAnomalyGenerator   # ← G：伪异常生成器
 
 
 # ----------------- Dataset -----------------

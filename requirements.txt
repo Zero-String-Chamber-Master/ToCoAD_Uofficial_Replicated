@@ -1,0 +1,13 @@
+matplotlib==3.10.5
+matplotlib-inline==0.1.7
+numpy==2.2.6
+opencv-python==4.12.0.88
+pillow==11.3.0
+scikit-learn==1.7.2
+scipy==1.16.3
+setuptools==69.5.1
+torchvision @ https://download.pytorch.org/whl/cu128/torchvision-0.23.0%2Bcu128-cp312-cp312-
+tornado==6.5.1
+tqdm @ file:///croot/tqdm_1714567712644/work
+ultralytics==8.3.230
+ultralytics-thop==2.0.18

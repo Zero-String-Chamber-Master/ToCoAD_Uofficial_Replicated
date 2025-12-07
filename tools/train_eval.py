@@ -10,7 +10,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 
-from modules_stage1_combine.simplenet import SimpleNet
+from modules.simplenet import SimpleNet
 from .dataset import MVTecDataset
 from .metrics import compute_image_auroc, compute_pixel_auroc
 from .visualization import save_triplet_heatmaps

@@ -8,8 +8,8 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from modules_stage1_combine.feature_extractor import ResNetFeatureExtractor
-from modules_stage1_combine.discriminative_unet import DiscriminativeUNet
+from modules.feature_extractor import ResNetFeatureExtractor
+from modules.discriminative_unet import DiscriminativeUNet
 from .dataset_dnp import DNPDataset
 from .focal_loss import FocalLoss, DiceLoss
 
